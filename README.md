@@ -1,8 +1,9 @@
 # php-generar-hash-hmac
-PHP 7, PHP 8 donde ingresas un texto y genera los Hash HMAC md5/sha1/sha256/sha512 [https://www.php.net/manual/es/function.hash-hmac.php]
+PHP 7, PHP 8 donde ingresas un texto y genera los Hash HMAC md5/sha1/sha256/sha512
 La Clave secreta se guarda en la constante `PRIVATE_KEY` en el archivo hash-hmac.php
+[https://www.php.net/manual/es/function.hash-hmac.php]
 
-[http://localhost/php-generar-hash-hmac]
+`http://localhost/php-generar-hash-hmac`
 
 Librerias
 - [ ] jquery-3.7.1. [https://jquery.com/download/]
