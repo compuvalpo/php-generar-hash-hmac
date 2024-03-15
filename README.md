@@ -18,7 +18,7 @@ git clone https://github.com/compuvalpo/php-generar-hash-hmac.git
 
 
 ## Lavantar Repositorio en local
-Una vez clonado el repositorio en su carpeta de Apache [www - htdoc - html - u otra según su versión] debe acceder a la siguiente url
+Una vez clonado el repositorio en su carpeta de Apache [www - htdocs - html - u otra según su versión] debe acceder a la siguiente url
 `http://localhost/php-generar-hash-hmac`
 
 
