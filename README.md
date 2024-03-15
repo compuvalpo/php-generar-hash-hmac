@@ -16,6 +16,14 @@ Librerias
 git clone https://github.com/compuvalpo/php-generar-hash-hmac.git
 ```
 
+## Comparar Hashed
+Para comparar si 2 Hash son iguales, se debe utilizar la función hash_equals [https://www.php.net/manual/es/function.hash-equals.php]
+```
+	if (hash_equals($hash_conocido, $hash_a_comparar) ) {
+        echo "Son iguales";
+    }
+```
+
 ## Capturas
 ![Ejemplo 1](capturas/ejemplo_1.png)
 ![Ejemplo 2](capturas/ejemplo_2.png)
