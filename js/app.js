@@ -43,11 +43,11 @@ function GenerarHashHmac(){
 					}, 100);
 					//SwalMensaje('Hash Generados', 'Se han generado los Hash HMAC.', 'success');
 				}else{
-					SwalMensaje('Error', 'Error al intentar de generar los Hash HMAC.', 'error');
+					SwalMensaje('Hash no Generados', 'No se han generado los Hash HMAC.', 'error');
 				}
             },
             error: function(jqXHR, status, error) {
-				SwalMensaje('Hash no Generados', 'No se han generado los Hash HMAC.', 'error');
+				SwalMensaje('Error', 'Error al intentar de generar los Hash HMAC.', 'error');
             }
         });
 	
